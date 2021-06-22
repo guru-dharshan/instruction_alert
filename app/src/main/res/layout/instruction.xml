@@ -21,7 +21,7 @@
         android:background="@drawable/bg"
         android:id="@+id/view2"
         android:layout_marginTop="180dp"
-        android:visibility="gone"
+        android:visibility="invisible"
         android:layout_marginLeft="140dp"
 
         app:layout_constraintBottom_toBottomOf="parent"
@@ -35,11 +35,23 @@
         android:layout_height="50dp"
         android:text="profile"
         android:background="@drawable/bg"
-        android:visibility="gone"
+        android:visibility="invisible"
         android:id="@+id/view3"
 
         android:layout_marginTop="30dp"
         android:layout_marginLeft="20dp"
          />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:text="This is TextView"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:id="@+id/textView"
+        android:textSize="20sp"
+        />
 
 </LinearLayout>
